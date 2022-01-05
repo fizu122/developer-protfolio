@@ -4,6 +4,9 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 .red{
     color: red;
 }
@@ -20,12 +23,11 @@ h1{
 }
 .button{
     text-decoration: none;
-    background-color: tomato;
     padding: 10px 45px;
     color: white;
     font-weight: 900;
     border-radius: 5px;
-    background-image: linear-gradient(orange tomatokk);
+    background-image:linear-gradient(to right,orange , tomato);
     
 }
 .top{
@@ -36,4 +38,29 @@ h1{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.three{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp{
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding: 20px;
+   box-shadow: 10px 10px 40px salmon;
+   border-radius: 10px;
+}
+#slice{
+    border-left: 8px solid;
+    border-image:linear-gradient(to right, red , yellow);
+    border-image-slice: 1;
+    
+
+}
+#border{
+    border-left: 8px solid;
+    border-image:linear-gradient(to right, green , yellowgreen);
+    border-image-slice: 1;
 }
