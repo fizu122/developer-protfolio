@@ -9,10 +9,11 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half{
     width: 50%;
-    padding-left: 3%;
+    padding-left: 2%;
 }
 .half img {
     width: 80%;
@@ -30,4 +31,9 @@ section{
 .top{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.two{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
